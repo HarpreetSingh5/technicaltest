@@ -18,7 +18,6 @@ export class GameComponent implements OnInit {
   constructor( private apiServicec: ApiService ) { }
 
   ngOnInit() {
-    console.log(this.jackpot)
     this.jackpot.forEach(snap =>{
       if(snap.game === this.game.id){
         this.jackpotValue = snap.amount;

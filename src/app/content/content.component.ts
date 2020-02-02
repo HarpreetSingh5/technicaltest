@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
 import {Game} from '../models/Games';
 import {Jackpot} from '../models/Jackpot';
-import {Merged} from '../models/merged';
 
 @Component({
   selector: 'app-content',

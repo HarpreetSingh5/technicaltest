@@ -8,6 +8,11 @@ import { ContentComponent } from './content/content.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GameComponent } from './game/game.component';
 import { NewGamesComponent } from './new-games/new-games.component';
+import { SlotsComponent } from './slots/slots.component';
+import { JackpotsComponent } from './jackpots/jackpots.component';
+import { LiveComponent } from './live/live.component';
+import { BlackjackComponent } from './blackjack/blackjack.component';
+import { RouletteComponent } from './roulette/roulette.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { NewGamesComponent } from './new-games/new-games.component';
     NavbarComponent,
     ContentComponent,
     GameComponent,
-    NewGamesComponent
+    NewGamesComponent,
+    SlotsComponent,
+    JackpotsComponent,
+    LiveComponent,
+    BlackjackComponent,
+    RouletteComponent
   ],
   imports: [
     BrowserModule,
